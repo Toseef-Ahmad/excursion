@@ -6,7 +6,16 @@
     <link rel="stylesheet" href="./resources/css/style.css">
 
     <title>excursion</title>
+    <script>
+        function toggleMute() {
+            var video = document.getElementById("videoId");
+            video.play()
+        }
 
+        setTimeout(() => {
+            toggleMute();
+        }, 4000)
+    </script>
 </head>
 
 <body>
@@ -18,7 +27,13 @@
             <a class="header-link" href="">Download Excursion (Comming soon!).</a>
         </header>
         <!-- main -->
-        
+        <main>
+            <section>
+                <video id="videoId">
+                    <source src="./resources/excursion.mp4" type="video/mp4" />
+                </video>
+            </section>
+        </main>
     </div>
 </body>
 
