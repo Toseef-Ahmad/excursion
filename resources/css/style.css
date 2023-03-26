@@ -1,39 +1,38 @@
-
-* {
+/* Use specific selectors instead of universal selector */
+body {
     background-color: black;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-}
-.container {
+  }
+  
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.header-content {
- font-family: Verdana;
- font-weight: normal;
- font-size: 50px;
- color: #fff;
- text-align: center;
-}
-
-.header-link {
- color: aquamarine;
- font-size: 16px;
-}
-
-.main-video {
+  }
+  
+  .header-content {
+    font-weight: normal;
+    font-size: 50px;
+  }
+  
+  .header-link {
+    color: aquamarine;
+    font-size: 16px;
+  }
+  
+  .main-video {
     margin-top: 12px;
-}
-
-.main-personal-guide {
+  }
+  
+  .main-personal-guide {
     font-size: 42px;
     font-weight: 300;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.main-remember-place {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .main-remember-place {
     font-size: 21px;
-    color: gray
-}
+    color: gray;
+  }
+  
